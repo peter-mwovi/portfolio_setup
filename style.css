@@ -48,7 +48,7 @@ section {
 }
 
 section h1 {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 40px;
   color: #172b4d;
