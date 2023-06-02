@@ -203,11 +203,31 @@ li {
   width: 70%;
 }
 
+details ul {
+  margin-left: 7%;
+  margin-top: 2.25rem;
+}
+
 .item4 ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0;
+}
+
+details ul li {
+  color: #253858;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.938rem;
+  display: flex;
+  align-items: center;
+  background: #f7f7f9;
+  width: 18.938rem;
+  height: 4.17rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.75rem;
+  padding-left: 3%;
 }
 
 .item4 ul li {
@@ -318,26 +338,6 @@ details[open] summary::after {
 
 details:hover summary::-webkit-details-marker {
   font-size: 1.25rem;
-}
-
-details ul {
-  margin-left: 7%;
-  margin-top: 2.25rem;
-}
-
-details ul li {
-  color: #253858;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 0.938rem;
-  display: flex;
-  align-items: center;
-  background: #f7f7f9;
-  width: 18.938rem;
-  height: 4.17rem;
-  border-radius: 0.5rem;
-  margin-bottom: 0.75rem;
-  padding-left: 3%;
 }
 
 details ul li img {
