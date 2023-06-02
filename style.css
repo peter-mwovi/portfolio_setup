@@ -94,6 +94,12 @@ section p:hover {
   text-decoration-thickness: 2px;
 }
 
+summary h1 {
+  display: inline;
+  margin-left: 7%;
+  font-size: 1.25rem;
+}
+
 .item1 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
@@ -298,12 +304,6 @@ summary::after {
   transition: 0.2s;
   content: "\203A";
   align-items: center;
-}
-
-summary h1 {
-  display: inline;
-  margin-left: 7%;
-  font-size: 1.25rem;
 }
 
 details[open] summary::after {
