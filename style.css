@@ -138,6 +138,11 @@ section .media {
   flex-direction: column;
 }
 
+details ul {
+  margin-left: 7%;
+  margin-top: 2.25rem;
+}
+
 .socials ul {
   display: flex;
   align-items: center;
@@ -201,11 +206,6 @@ li {
 
 .item4 {
   width: 70%;
-}
-
-details ul {
-  margin-left: 7%;
-  margin-top: 2.25rem;
 }
 
 .item4 ul {
