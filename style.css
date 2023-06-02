@@ -12,7 +12,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding-top: 10%;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 header a {
@@ -41,11 +41,10 @@ header nav {
 
 section {
   background-image: url("/images/background.jpg");
-  background-color: #ffffff;
+  background-color: #fff;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  background-position-y: -4w;
   justify-content: center;
   background-size: 100vw;
   height: 90vh;
@@ -72,10 +71,36 @@ section p {
   margin: 3% 7%;
 }
 
+.item3 p {
+  font-weight: 400;
+  color: #344563;
+}
+
+.option1 p {
+  margin-left: 7%;
+}
+
+.option2 p {
+  margin-left: 7%;
+}
+
+.option3 p {
+  margin-left: 7%;
+}
+
 section p:hover {
   text-decoration: underline;
   text-decoration-color: #23a3fa;
   text-decoration-thickness: 2px;
+}
+
+.item1 h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 36px;
+  color: #172b4d;
+  margin: 0;
 }
 
 section h1:hover {
@@ -133,7 +158,7 @@ li {
 .grid-item {
   margin-top: 30%;
   box-sizing: border-box;
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 4%;
   border: 1px solid #dfe1e6;
   width: 327px;
@@ -141,15 +166,6 @@ li {
   align-items: center;
   padding: 16px;
   gap: 12px;
-}
-
-.item1 h1 {
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  font-size: 29px;
-  line-height: 36px;
-  color: #172b4d;
-  margin: 0;
 }
 
 .item2 {
@@ -179,11 +195,6 @@ li {
   width: 70%;
 }
 
-.item3 p {
-  font-weight: 400;
-  color: #344563;
-}
-
 .item4 ul {
   display: flex;
   justify-content: space-between;
@@ -202,17 +213,16 @@ li {
   height: 24px;
   background: #ebebff;
   border-radius: 8px;
-  /* margin: 0 3%; */
 }
 
 .item5 button {
   width: 50%;
   height: 48px;
   color: #396df2;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  background-color: #ffffff;
+  background-color: #fff;
   font-size: 17px;
   border: 1px solid #6070ff;
   border-radius: 8px;
@@ -229,10 +239,10 @@ li {
 .about {
   height: auto;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #fff;
   border-top-right-radius: 4rem;
   margin-top: 30%;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -262,10 +272,10 @@ li {
   width: 50%;
   height: 48px;
   color: #396df2;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: bold;
   font-weight: 500;
-  background-color: #ffffff;
+  background-color: #fff;
   font-size: 17px;
   border: 1px solid #6070ff;
   border-radius: 8px;
@@ -278,6 +288,7 @@ summary {
   list-style: none;
   margin-top: 10%;
 }
+
 summary::after {
   color: #acb7c3;
   size: 5rem;
@@ -288,6 +299,7 @@ summary::after {
   content: "\203A";
   align-items: center;
 }
+
 summary h1 {
   display: inline;
   margin-left: 7%;
@@ -312,14 +324,9 @@ details:hover summary::-webkit-details-marker {
   border-radius: 8px;
   margin-bottom: 12px;
   color: #253858;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
-  margin-left: 7%;
   font-size: 15px;
-}
-
-.option1 p {
-  margin-left: 7%;
 }
 
 .option1 img {
@@ -340,15 +347,11 @@ details:hover summary::-webkit-details-marker {
   border-radius: 8px;
   margin-bottom: 12px;
   color: #253858;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
-  margin-left: 7%;
   font-size: 15px;
 }
 
-.option2 p {
-  margin-left: 7%;
-}
 .option2 img {
   width: 48px;
   height: 48px;
@@ -356,6 +359,7 @@ details:hover summary::-webkit-details-marker {
   justify-content: center;
   padding-left: 12px;
 }
+
 .option3 {
   display: flex;
   align-items: center;
@@ -366,15 +370,11 @@ details:hover summary::-webkit-details-marker {
   border-radius: 8px;
   margin-bottom: 12px;
   color: #253858;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
-  margin-left: 7%;
   font-size: 15px;
 }
 
-.option3 p {
-  margin-left: 7%;
-}
 .option3 img {
   width: 48px;
   height: 48px;
