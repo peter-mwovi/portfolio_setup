@@ -39,7 +39,7 @@ header nav {
   align-items: center;
 }
 
-section {
+.background {
   background-image: url("/images/background.jpg");
   background-color: #fff;
   background-repeat: no-repeat;
@@ -52,7 +52,7 @@ section {
   border-bottom-left-radius: 4rem;
 }
 
-section h1 {
+.background h1 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 2.5rem;
@@ -62,7 +62,7 @@ section h1 {
   margin: 0 7%;
 }
 
-section p {
+.background p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-size: 1rem;
@@ -88,7 +88,7 @@ section p {
   margin-left: 7%;
 }
 
-section p:hover {
+.background p:hover {
   text-decoration: underline;
   text-decoration-color: #23a3fa;
   text-decoration-thickness: 0.125rem;
@@ -111,7 +111,7 @@ summary h3 {
   margin: 0;
 }
 
-section h1:hover {
+.background h1:hover {
   text-decoration: underline;
   text-decoration-color: #23a3fa;
   text-decoration-thickness: 0.125rem;
@@ -133,7 +133,7 @@ section h1:hover {
   text-decoration-color: #23a3fa;
 }
 
-section .media {
+.background .media {
   display: flex;
   flex-direction: column;
 }
@@ -356,4 +356,18 @@ hr {
   background: #dfe1e6;
   height: 0.063rem;
   margin-top: 5%;
+}
+
+/* Added a Contact Form section */
+.background2 {
+  
+}
+
+.contact {
+  height: 100vh;
+  width: 100%;
+  margin-top: 20%;
+  background-image: url(./images/blue-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
