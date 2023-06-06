@@ -12,6 +12,7 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
+
   <body>
     <header>
       <a class="logo" href="#">My Logo</a>
@@ -275,15 +276,46 @@
     </div>
     <footer class="contact">
       <section class="background2">
-        <form class="form" action="">
-          <h2>Contact me</h2>
-          <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-            I’d love to help with it!</p>
-            <input id="name" name="name" type="text" placeholder="Lorem Ipsum">
-            <input id="email" name="email" type="email" placeholder="loremipsum@gmail.com">
-            <textarea id="text" name="text" placeholder="Write your message here..."></textarea>
+        <form
+          class="form"
+          action="https://formspree.io/f/xdovrwzl"
+          method="POST"
+        >
+          <div class="section3">
+            <h2>Contact me</h2>
+            <p>
+              If you have an application you are interested in developing, a
+              feature that you need built or a project that needs coding. I’d
+              love to help with it!
+            </p>
+            <input
+              id="name"
+              class="name"
+              name="name"
+              type="text"
+              placeholder="Lorem Ipsum"
+              maxlength="30"
+            />
+            <input
+              id="email"
+              class="email"
+              name="email"
+              type="email"
+              placeholder="loremipsum@gmail.com"
+            />
+            <textarea
+              id="text"
+              class="text"
+              type="text"
+              name="message"
+              placeholder="Write your message here..."
+              maxlength="500"
+            ></textarea>
+          </div>
+          <button type="submit" value="submit" class="submit">
+            Get in touch
+          </button>
         </form>
-
       </section>
     </footer>
   </body>
