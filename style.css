@@ -92,8 +92,8 @@ header nav {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   color: #fff;
   text-align: center;
 }
@@ -266,6 +266,28 @@ details ul li {
   border-radius: 0.5rem;
 }
 
+.item5 button:enabled {
+  cursor: pointer;
+  background: #fff;
+  border: 0.063rem solid #7f8cff;
+  border-radius: 0.5rem;
+  color: #6070ff;
+}
+
+.item5 button:hover {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: #23a3fa;
+  background: #6070ff;
+  box-shadow: 0rem 0.5rem 1rem rgba(64, 83, 252, 0.24);
+}
+
+.item5 button:active {
+  color: #fff;
+  background: #2230d2;
+}
+
 .grid-item:nth-child(4n) {
   height: 37.25rem;
 }
@@ -322,6 +344,28 @@ details ul li {
   border: 0.063rem solid #6070ff;
   border-radius: 0.5rem;
   margin-left: 7%;
+}
+
+.resume button:enabled {
+  cursor: pointer;
+  background: #fff;
+  border: 0.063rem solid #7f8cff;
+  border-radius: 0.5rem;
+  color: #6070ff;
+}
+
+.resume button:hover {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: #23a3fa;
+  background: #6070ff;
+  box-shadow: 0rem 0.5rem 1rem rgba(64, 83, 252, 0.24);
+}
+
+.resume button:active {
+  color: #fff;
+  background: #2230d2;
 }
 
 summary {
@@ -385,7 +429,7 @@ hr {
   padding-top: 20%;
 }
 
-.section3 {
+.flex-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -396,8 +440,8 @@ hr {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
   color: #fff;
 }
 
@@ -410,19 +454,20 @@ hr {
 .name,
 .email {
   background: #fff;
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
+  border: 0.063rem solid #cfd8dc;
+  border-radius: 0.5rem;
   width: 80%;
-  height: 48px;
+  height: 3rem;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
-  line-height: 20px;
+  font-size: 1.063rem;
+  line-height: 1.25rem;
 }
 
 .name {
-  margin: 42px 0 0 0;
+  margin: 2.625rem 0 0 0;
+  padding-left: 1rem;
 }
 
 .name:hover {
@@ -432,7 +477,8 @@ hr {
 }
 
 .email {
-  margin: 20px 0 0 0;
+  margin: 1.25rem 0 0 0;
+  padding-left: 1rem;
 }
 
 .email:hover {
@@ -442,16 +488,17 @@ hr {
 }
 
 .text {
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  margin: 20px 0 0 0;
+  border: 0.063rem solid #cfd8dc;
+  border-radius: 0.5rem;
+  margin: 1.25rem 0 0 0;
   width: 80%;
-  height: 150px;
+  height: 9.375rem;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
-  line-height: 20px;
+  font-size: 1.063rem;
+  line-height: 1.25rem;
+  padding: 1.25rem 0 0 1rem;
 }
 
 .text:hover {
@@ -461,34 +508,52 @@ hr {
 }
 
 .name::placeholder {
-  color: #172b4d;
-  padding-left: 20px;
+  color: #b3bac5;
 }
 
 .email::placeholder {
-  color: #172b4d;
-  padding-left: 20px;
+  color: #b3bac5;
 }
 
 .text::placeholder {
-  color: #172b4d;
-  padding: 20px 0 0 20px;
+  color: #b3bac5;
 }
 
 .submit {
-  padding: 12px 16px;
-  margin: 20px 0 20% 9%;
+  padding: 0.75rem 1rem;
+  margin: 1.25rem 0 20% 9%;
   background: #fff;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   border: none;
   color: #6070ff;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 1.063rem;
+}
+
+.submit:enabled {
+  cursor: pointer;
+  background: #fff;
+  border: 0.063rem solid #7f8cff;
+  border-radius: 0.5rem;
+  color: #6070ff;
 }
 
 .submit:hover {
+  cursor: pointer;
+  color: #fff;
   text-decoration: underline;
   text-decoration-color: #23a3fa;
+  background: #6070ff;
+  box-shadow: 0rem 0.5rem 1rem rgba(64, 83, 252, 0.24);
+}
+
+.submit:active {
+  color: #fff;
+  background: #2230d2;
+}
+
+.inputs {
+  margin-left: 9%;
 }
