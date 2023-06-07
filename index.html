@@ -281,36 +281,47 @@
           action="https://formspree.io/f/xdovrwzl"
           method="POST"
         >
-          <div class="section3">
-            <h2>Contact me</h2>
-            <p>
-              If you have an application you are interested in developing, a
-              feature that you need built or a project that needs coding. I’d
-              love to help with it!
-            </p>
-            <input
-              id="name"
-              class="name"
-              name="name"
-              type="text"
-              placeholder="Lorem Ipsum"
-              maxlength="30"
-            />
-            <input
-              id="email"
-              class="email"
-              name="email"
-              type="email"
-              placeholder="loremipsum@gmail.com"
-            />
-            <textarea
-              id="text"
-              class="text"
-              type="text"
-              name="message"
-              placeholder="Write your message here..."
-              maxlength="500"
-            ></textarea>
+          <div class="flex-container">
+            <div>
+              <h2>Contact me</h2>
+            </div>
+            <div>
+              <p>
+                If you have an application you are interested in developing, a
+                feature that you need built or a project that needs coding. I’d
+                love to help with it!
+              </p>
+            </div>
+            <div class="inputs">
+              <input
+                id="name"
+                class="name"
+                name="name"
+                type="text"
+                placeholder="Enter your name"
+                maxlength="30"
+                required
+              />
+
+              <input
+                id="email"
+                class="email"
+                name="email"
+                type="email"
+                placeholder="Enter your email"
+                required
+              />
+
+              <textarea
+                id="text"
+                class="text"
+                type="text"
+                name="message"
+                placeholder="Write your message here..."
+                maxlength="500"
+                required
+              ></textarea>
+            </div>
           </div>
           <button type="submit" value="submit" class="submit">
             Get in touch
