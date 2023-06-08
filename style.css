@@ -39,6 +39,31 @@ header nav {
   align-items: center;
 }
 
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
+.paragraph2:hover {
+  transform: translate(16px, 0);
+}
+
+.rotate {
+  animation: rotation 2s linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 .background {
   background-image: url("/images/background.jpg");
   background-color: #fff;
