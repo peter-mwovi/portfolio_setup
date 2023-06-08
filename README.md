@@ -137,6 +137,12 @@ You can deploy this project using:
 - Twitter: [@twitterhandle](https://twitter.com/mwovi_peter)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/peter-mwovi-57141a179/)
 
+👤 **Juan Carlos Muñoz**
+
+- GitHub: [@githubhandle](https://github.com/jcmunav63)
+- Twitter: [@twitterhandle](https://twitter.com/jcmunav63)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juan-carlos-mu%C3%B1oz-navarrete-5a15b6276/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->

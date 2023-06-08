@@ -39,7 +39,7 @@ header nav {
   align-items: center;
 }
 
-section {
+.background {
   background-image: url("/images/background.jpg");
   background-color: #fff;
   background-repeat: no-repeat;
@@ -52,7 +52,7 @@ section {
   border-bottom-left-radius: 4rem;
 }
 
-section h1 {
+.background h1 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 2.5rem;
@@ -62,7 +62,7 @@ section h1 {
   margin: 0 7%;
 }
 
-section p {
+.background p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-size: 1rem;
@@ -88,7 +88,17 @@ section p {
   margin-left: 7%;
 }
 
-section p:hover {
+.form p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: #fff;
+  text-align: center;
+}
+
+.background p:hover {
   text-decoration: underline;
   text-decoration-color: #23a3fa;
   text-decoration-thickness: 0.125rem;
@@ -111,7 +121,7 @@ summary h3 {
   margin: 0;
 }
 
-section h1:hover {
+.background h1:hover {
   text-decoration: underline;
   text-decoration-color: #23a3fa;
   text-decoration-thickness: 0.125rem;
@@ -133,7 +143,7 @@ section h1:hover {
   text-decoration-color: #23a3fa;
 }
 
-section .media {
+.background .media {
   display: flex;
   flex-direction: column;
 }
@@ -256,6 +266,42 @@ details ul li {
   border-radius: 0.5rem;
 }
 
+.resume button {
+  width: 50%;
+  height: 3rem;
+  color: #396df2;
+  font-family: "Poppins", sans-serif;
+  font-style: bold;
+  font-weight: 500;
+  background-color: #fff;
+  font-size: 1.063rem;
+  border: 0.063rem solid #6070ff;
+  border-radius: 0.5rem;
+  margin-left: 7%;
+}
+
+.item5 button:enabled {
+  cursor: pointer;
+  background: #fff;
+  border: 0.063rem solid #7f8cff;
+  border-radius: 0.5rem;
+  color: #6070ff;
+}
+
+.item5 button:hover {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: #23a3fa;
+  background: #6070ff;
+  box-shadow: 0 0.5rem 1rem rgba(64, 83, 252, 0.24);
+}
+
+.item5 button:active {
+  color: #fff;
+  background: #2230d2;
+}
+
 .grid-item:nth-child(4n) {
   height: 37.25rem;
 }
@@ -300,18 +346,26 @@ details ul li {
   padding: 0;
 }
 
-.resume button {
-  width: 50%;
-  height: 3rem;
-  color: #396df2;
-  font-family: "Poppins", sans-serif;
-  font-style: bold;
-  font-weight: 500;
-  background-color: #fff;
-  font-size: 1.063rem;
-  border: 0.063rem solid #6070ff;
+.resume button:enabled {
+  cursor: pointer;
+  background: #fff;
+  border: 0.063rem solid #7f8cff;
   border-radius: 0.5rem;
-  margin-left: 7%;
+  color: #6070ff;
+}
+
+.resume button:hover {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: #23a3fa;
+  background: #6070ff;
+  box-shadow: 0 0.5rem 1rem rgba(64, 83, 252, 0.24);
+}
+
+.resume button:active {
+  color: #fff;
+  background: #2230d2;
 }
 
 summary {
@@ -356,4 +410,150 @@ hr {
   background: #dfe1e6;
   height: 0.063rem;
   margin-top: 5%;
+}
+
+/* Added a Contact Form section */
+
+.contact {
+  background-color: #fff;
+  position: absolute;
+}
+
+.background2 {
+  width: 100%;
+  background-image: url(./images/blue-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 40%;
+  height: 100%;
+  padding-top: 20%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  color: #fff;
+}
+
+.form h2:hover {
+  text-decoration: underline;
+  text-decoration-color: #23a3fa;
+  text-decoration-thickness: 0.125;
+}
+
+.name,
+.email {
+  background: #fff;
+  border: 0.063rem solid #cfd8dc;
+  border-radius: 0.5rem;
+  width: 80%;
+  height: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.063rem;
+  line-height: 1.25rem;
+}
+
+.name {
+  margin: 2.625rem 0 0 0;
+  padding-left: 1rem;
+}
+
+.name:hover {
+  text-decoration: underline;
+  text-decoration-color: #23a3fa;
+  text-decoration-thickness: 0.125;
+}
+
+.email {
+  margin: 1.25rem 0 0 0;
+  padding-left: 1rem;
+}
+
+.email:hover {
+  text-decoration: underline;
+  text-decoration-color: #23a3fa;
+  text-decoration-thickness: 0.125;
+}
+
+.text {
+  border: 0.063rem solid #cfd8dc;
+  border-radius: 0.5rem;
+  margin: 1.25rem 0 0 0;
+  width: 80%;
+  height: 9.375rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.063rem;
+  line-height: 1.25rem;
+  padding: 1.25rem 0 0 1rem;
+}
+
+.text:hover {
+  text-decoration: underline;
+  text-decoration-color: #23a3fa;
+  text-decoration-thickness: 0.125;
+}
+
+.name::placeholder {
+  color: #b3bac5;
+}
+
+.email::placeholder {
+  color: #b3bac5;
+}
+
+.text::placeholder {
+  color: #b3bac5;
+}
+
+.submit {
+  padding: 0.75rem 1rem;
+  margin: 1.25rem 0 20% 9%;
+  background: #fff;
+  border-radius: 0.5rem;
+  border: none;
+  color: #6070ff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.063rem;
+}
+
+.submit:enabled {
+  cursor: pointer;
+  background: #fff;
+  border: 0.063rem solid #7f8cff;
+  border-radius: 0.5rem;
+  color: #6070ff;
+}
+
+.submit:hover {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: #23a3fa;
+  background: #6070ff;
+  box-shadow: 0 0.5rem 1rem rgba(64, 83, 252, 0.24);
+}
+
+.submit:active {
+  color: #fff;
+  background: #2230d2;
+}
+
+.inputs {
+  margin-left: 9%;
 }
