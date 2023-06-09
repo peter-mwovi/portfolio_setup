@@ -1122,7 +1122,6 @@
   .text:hover {
     text-decoration: underline;
     text-decoration-color: #23a3fa;
-    text-decoration-thickness: 0.125;
   }
 
   .name::placeholder {
