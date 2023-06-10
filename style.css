@@ -589,13 +589,13 @@
   }
 
   .logo {
-    width: 76px;
-    height: 20px;
+    width: 4.75rem;
+    height: 1.25rem;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
     color: #6070ff;
     text-decoration: none;
   }
@@ -604,8 +604,8 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 0.938rem;
+    line-height: 1.25rem;
     color: #344563;
     list-style: none;
     display: flex;
@@ -630,15 +630,15 @@
     display: flex;
     flex-direction: column;
     font-family: "Poppins", sans-serif;
-    padding-left: 280px;
-    padding-top: 225px;
+    padding-left: 15%;
+    padding-top: 15%;
   }
 
   .background h1 {
     margin: 0;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 3rem;
+    line-height: 3.75rem;
     color: #091e42;
     width: 40%;
   }
@@ -646,10 +646,10 @@
   .background p {
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
     color: #344563;
-    width: 80%;
+    width: 70%;
   }
 
   summary h3 {
@@ -657,7 +657,7 @@
     font-weight: 500;
     font-size: 1.25rem;
     font-family: "Poppins", sans-serif;
-    line-height: 24px;
+    line-height: 1.5rem;
     display: flex;
     align-items: center;
     color: #344563;
@@ -666,13 +666,13 @@
   .media h3 {
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     color: #7f8cff;
   }
 
   .media ul {
-    margin: 0;
+    margin: 0 0 0 0;
     padding: 0;
     display: flex;
   }
@@ -685,8 +685,8 @@
     display: flex;
     flex-direction: column;
     background: #f7f7f9;
-    width: 122px;
-    height: 120px;
+    width: 7.625rem;
+    height: 7.5rem;
     border-radius: 0.5rem;
     margin-bottom: 0.75rem;
     margin-right: 1.2rem;
@@ -713,12 +713,12 @@
   }
 
   .grid-item {
-    margin-top: 142px;
+    margin-top: 8.875rem;
     box-sizing: border-box;
     background-color: #fff;
-    border-radius: 24px;
+    border-radius: 1.5rem;
     border: 0.063rem solid #dfe1e6;
-    width: 1156px;
+    width: 72.25rem;
     height: 34.5rem;
     padding: 1rem;
     gap: 0.75rem;
@@ -735,10 +735,10 @@
   }
 
   .item1 img {
-    width: 544px;
-    height: 448px;
-    left: 24px;
-    top: 24px;
+    width: 34rem;
+    height: 28rem;
+    left: 1.5rem;
+    top: 1.5rem;
   }
 
   .grid-container {
@@ -747,7 +747,7 @@
 
   /* Work Section */
   .works {
-    margin: 50px 0 50px 0;
+    margin: 3.125rem 0 3.125rem 0;
     width: 100%;
   }
 
@@ -766,19 +766,19 @@
 
   .rows {
     width: 80%;
-    margin: 150px auto 20px auto;
-    padding: 10px 10px 10px 10px;
+    margin: 9.375rem auto 1.25rem auto;
+    padding: 0.625rem 0.625rem 0.625rem 0.625rem;
     background-color: #fff;
-    border: solid 1px #dfe1e6;
-    border-radius: 24px;
+    border: solid 0.063rem #dfe1e6;
+    border-radius: 1.5rem;
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
   }
 
   .work1b {
     background-color: #fff;
     width: 50%;
-    padding: 20px auto auto 20px;
+    padding: 1.25rem auto auto 1.25rem;
     display: flex;
     flex-direction: column;
     margin-left: 2%;
@@ -788,14 +788,14 @@
     box-sizing: border-box;
     width: 50%;
     height: auto;
-    padding: 10px 10px 10px 10px;
+    padding: 0.625rem 0.625rem 0.625rem 0.625rem;
   }
 
   .photo2 {
     box-sizing: border-box;
     width: 50%;
     height: auto;
-    padding: 10px 10px 10px 10px;
+    padding: 0.625rem 0.625rem 0.625rem 2rem;
   }
 
   .work1b-img {
@@ -805,8 +805,8 @@
   }
 
   .work-text1b {
-    font-size: 40px;
-    line-height: 52px;
+    font-size: 2.5rem;
+    line-height: 3.25rem;
     font-weight: 700;
     color: #172b4d;
     margin-bottom: 0;
@@ -814,37 +814,37 @@
   }
 
   .work-text1 {
-    margin-top: 8px;
-    font-size: 32px;
+    margin-top: 0.5rem;
+    font-size: 2rem;
     color: #172b4d;
     width: 70%;
     margin-left: 5%;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
 
   .canopy {
     color: #344563;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
     font-weight: 500;
-    margin: 5px 10px 5px 0;
+    margin: 0.313rem 0.625rem 0.313rem 0;
   }
 
   .bed,
   .year {
     color: #6b778c;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
     font-weight: 400;
     margin-right: 1.2rem;
   }
 
   .desc2 {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     font-weight: 400;
     color: #344563;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     width: 90%;
     font-family: "Poppins", sans-serif;
   }
@@ -858,13 +858,13 @@
 
   .stack {
     font-family: "Poppins", sans-serif;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 0.75rem;
+    line-height: 1rem;
     color: #6070ff;
     float: left;
     background-color: #ebebff;
-    padding: 4px 12px 4px 12px;
-    border-radius: 6px;
+    padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+    border-radius: 0.375rem;
   }
 
   .flex1,
@@ -878,64 +878,64 @@
 
   .see-project {
     font-family: "Poppins", sans-serif;
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 1.063rem;
+    line-height: 1.5rem;
     font-weight: 500;
     text-align: center;
     vertical-align: middle;
     background-color: #fff;
     color: #396df2;
-    border: solid 1px #396df2;
-    padding: 12px;
-    margin-top: 15px;
+    border: solid 0.063rem #396df2;
+    padding: 0.75rem;
+    margin-top: 0.938rem;
     margin-bottom: 10%;
-    border-radius: 8px;
+    border-radius: 0.5rem;
   }
 
   .see-project:hover {
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 1.063rem;
+    line-height: 1.5rem;
     font-weight: 500;
     text-align: center;
     vertical-align: middle;
     background-color: #6070ff;
     color: #fff;
-    border: solid 1px #fff;
-    padding: 12px;
-    border-radius: 4px;
+    border: solid 0.063rem #fff;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
   }
 
   .see-project:focus {
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 1.063rem;
+    line-height: 1.5rem;
     font-weight: 500;
     text-align: center;
     vertical-align: middle;
     background-color: #6070ff;
     color: #fff;
-    border: solid 1px #fff;
-    padding: 12px;
-    border-radius: 4px;
+    border: solid 0.063rem #fff;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
   }
 
   .see-project:active {
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 1.063rem;
+    line-height: 1.5rem;
     font-weight: 500;
     text-align: center;
     vertical-align: middle;
     background-color: #2230d2;
     color: #fff;
-    border: solid 1px #fff;
-    padding: 12px;
-    border-radius: 4px;
+    border: solid 0.063rem #fff;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
   }
 
   .work1-img {
     display: block;
     width: 90%;
     height: auto;
-    margin-top: 15px;
+    margin-top: 0.938rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1048,8 +1048,8 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
     color: #ebebff;
     text-align: center;
   }
@@ -1190,13 +1190,5 @@
   .languages4 img {
     margin-left: 35%;
     position: absolute;
-  }
-
-  #image2 {
-    margin-left: 10%;
-  }
-
-  #image4 {
-    margin-left: 10%;
   }
 }
