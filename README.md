@@ -60,7 +60,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://vercel.com/)
+- [Live Demo Link](https://peter-mwovi.github.io/portfolio_setup/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
