@@ -19,16 +19,8 @@
         <a class="logo" href="#">My Logo</a>
 
         <nav>
-          <img
-            onclick="dropdown()"
-            class="dropdown"
-            src="./images/Union.png"
-            alt="Menu"
-          />
-          <img src="./images/cross.png" alt="cross"/>
-           
+          <img id="toggle" class="dropdown" src="./images/Union.png" alt="Menu" />
         </nav>
-
       </header>
     </div>
 
@@ -36,13 +28,23 @@
       <a class="logo" href="#">My Logo</a>
 
       <nav>
-        <ul class="nav-links">
+        <ul class="nav-links" id="nav-links">
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
     </div>
+
+    <nav class="web-nav" id="web-nav">
+      <img src="./images/cross.png" id="cross" alt="cross" />
+
+      <ul>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
     <div class="flex-container3">
       <section class="background">
