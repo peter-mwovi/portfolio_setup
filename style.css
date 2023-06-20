@@ -647,7 +647,9 @@
     font-size: 32px;
     line-height: 44px;
     position: relative;
+    cursor: pointer;
   }
+
 }
 
 /* Desktop Screen Minimum width: 768px */
