@@ -125,13 +125,12 @@
     cursor: pointer;
   }
 
-
   .navbar3 li a {
     color: #d3e3e3;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 1.6em;
-    transition: all .5s;
+    transition: all 0.5s;
   }
 
   .navbar3 li:hover {
@@ -609,19 +608,17 @@
 
   .web-nav {
     display: none;
-    background: #6070FF;
-    backdrop-filter: blur(5px);
+    background: rgba(96, 112, 255, 0.87);
     position: absolute;
     height: 100%;
     width: 100%;
     top: 0;
-    mix-blend-mode: multiply;
     position: fixed;
   }
 
   .web-nav img {
-   margin-left: 85%;
-   margin-top: 10%;
+    margin-left: 85%;
+    margin-top: 10%;
   }
 
   .web-nav ul {
@@ -635,13 +632,12 @@
     list-style: none;
     padding-bottom: 40px;
     opacity: 1;
-
   }
 
   .web-nav ul li a {
     text-decoration: none;
     color: #fff;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
@@ -649,7 +645,6 @@
     position: relative;
     cursor: pointer;
   }
-
 }
 
 /* Desktop Screen Minimum width: 768px */
@@ -1303,7 +1298,7 @@
     margin: 0;
     padding: 14px 20px;
     width: 100%;
-    transition: background-color .5s;
+    transition: background-color 0.5s;
   }
 
   .navbar3 li:hover {
@@ -1311,12 +1306,11 @@
     background-color: #ce3939;
   }
 
-
   .navbar3 li a {
     color: #d3e3e3;
     text-decoration: none;
     padding: 14px 16px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 1em;
     transition: all 1s;
   }
