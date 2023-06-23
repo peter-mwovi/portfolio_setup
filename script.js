@@ -24,10 +24,10 @@ cancel.onclick = function () {
   }
 };
 
-for (const link of linkMenu) {
-  link.addEventListener('click', () => {
+for (let i = 0; i < linkMenu.length; i += 1) {
+  linkMenu[i].addEventListener('click', () => {
     targetDiv.style.display = 'none';
-    window.location.href = link.href;
+    window.location.href = linkMenu[i].href;
     document.body.style.overflowY = 'scroll';
   });
 }
