@@ -9,7 +9,7 @@ btn.onclick = function () {
     targetDiv.style.display = 'none';
     document.body.style.overflowY = 'hidden';
   } else {
-    targetDiv.style.display = "inline";
+    targetDiv.style.display = 'inline';
     document.body.style.overflowY = 'hidden';
   }
 };
@@ -25,7 +25,7 @@ cancel.onclick = function () {
 };
 
 for (let link of linkMenu) {
-  link.addEventListener('click', function () {
+  link.addEventListener('click', () => {
     targetDiv.style.display = 'none';
     window.location.href = link.href;
     document.body.style.overflowY = 'scroll';
