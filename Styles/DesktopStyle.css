@@ -141,8 +141,25 @@
     list-style-type: none;
   }
 
+  .navbar3 li {
+    display: block;
+    margin: 0;
+    padding: 14px 20px;
+    width: 100%;
+    transition: background-color 0.5s;
+  }
+
   .media ul li {
     list-style: none;
+  }
+
+  .navbar3 li a {
+    color: #d3e3e3;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-family: "Raleway", sans-serif;
+    font-size: 1em;
+    transition: all 1s;
   }
 
   .media ul li a {
@@ -646,28 +663,6 @@
     padding-right: 3%;
     padding-bottom: 3%;
     margin: 0;
-  }
-
-  .navbar3 li {
-    display: block;
-    margin: 0;
-    padding: 14px 20px;
-    width: 100%;
-    transition: background-color 0.5s;
-  }
-
-  .navbar3 li:hover {
-    cursor: pointer;
-    background-color: #ce3939;
-  }
-
-  .navbar3 li a {
-    color: #d3e3e3;
-    text-decoration: none;
-    padding: 14px 16px;
-    font-family: "Raleway", sans-serif;
-    font-size: 1em;
-    transition: all 1s;
   }
 
   .navbar3 li:hover {

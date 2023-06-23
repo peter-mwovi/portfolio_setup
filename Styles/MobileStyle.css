@@ -119,6 +119,10 @@
     margin: 0;
   }
 
+  li {
+    list-style-type: none;
+  }
+
   .navbar3 li {
     display: block;
     margin: 0;
@@ -132,6 +136,40 @@
     font-family: "Raleway", sans-serif;
     font-size: 1.6em;
     transition: all 0.5s;
+  }
+
+  details ul li {
+    color: #253858;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 0.938rem;
+    display: flex;
+    align-items: center;
+    background: #f7f7f9;
+    width: 18.938rem;
+    height: 4.17rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.75rem;
+    padding-left: 3%;
+  }
+
+  .item4 ul li {
+    text-align: center !important;
+    padding: 0.25rem 0.75rem;
+    color: #6070ff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.75rem;
+    width: auto;
+    height: 1.5rem;
+    background: #ebebff;
+    border-radius: 0.5rem;
+  }
+
+  .web-nav ul li {
+    list-style: none;
+    padding-bottom: 40px;
+    opacity: 1;
   }
 
   .navbar3 li:hover {
@@ -207,10 +245,6 @@
     margin-left: 7%;
   }
 
-  li {
-    list-style-type: none;
-  }
-
   .icon {
     margin-right: 5%;
   }
@@ -270,34 +304,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 0;
-  }
-
-  details ul li {
-    color: #253858;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 0.938rem;
-    display: flex;
-    align-items: center;
-    background: #f7f7f9;
-    width: 18.938rem;
-    height: 4.17rem;
-    border-radius: 0.5rem;
-    margin-bottom: 0.75rem;
-    padding-left: 3%;
-  }
-
-  .item4 ul li {
-    text-align: center !important;
-    padding: 0.25rem 0.75rem;
-    color: #6070ff;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 0.75rem;
-    width: auto;
-    height: 1.5rem;
-    background: #ebebff;
-    border-radius: 0.5rem;
   }
 
   .item5 button {
@@ -609,7 +615,6 @@
     height: 100%;
     width: 100%;
     top: 0;
-    position: fixed;
   }
 
   .web-nav img {
@@ -622,12 +627,6 @@
     flex-direction: column;
     margin-top: 106px;
     margin-left: 28px;
-  }
-
-  .web-nav ul li {
-    list-style: none;
-    padding-bottom: 40px;
-    opacity: 1;
   }
 
   .web-nav ul li a {
