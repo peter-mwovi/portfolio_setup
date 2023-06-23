@@ -668,6 +668,6 @@
   .navbar3 li:hover {
     cursor: pointer;
     background-color: #ce3939;
-    letter-spacing: 0px;
+    letter-spacing: 0;
   }
 }

@@ -123,21 +123,6 @@
     list-style-type: none;
   }
 
-  .navbar3 li {
-    display: block;
-    margin: 0;
-    padding: 5% 50px;
-    width: 100%;
-  }
-
-  .navbar3 li a {
-    color: #d3e3e3;
-    text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    font-size: 1.6em;
-    transition: all 0.5s;
-  }
-
   details ul li {
     color: #253858;
     font-family: "Poppins", sans-serif;
@@ -151,6 +136,21 @@
     border-radius: 0.5rem;
     margin-bottom: 0.75rem;
     padding-left: 3%;
+  }
+
+  .navbar3 li {
+    display: block;
+    margin: 0;
+    padding: 5% 50px;
+    width: 100%;
+  }
+
+  .navbar3 li a {
+    color: #d3e3e3;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.6em;
+    transition: all 0.5s;
   }
 
   .item4 ul li {
