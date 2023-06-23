@@ -24,7 +24,7 @@ cancel.onclick = function () {
   }
 };
 
-for (let link of linkMenu) {
+for (const link of linkMenu) {
   link.addEventListener('click', () => {
     targetDiv.style.display = 'none';
     window.location.href = link.href;
