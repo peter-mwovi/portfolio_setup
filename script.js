@@ -11,7 +11,7 @@ let emailAddress = email.value;
 form.addEventListener("submit", (e) => {
   const regex = /[A-Z]/;
   if (regex.test(emailAddress)) {
-    errMsgEmail.innerText = "Please enter only lower case";
+    errMsgEmail.innerText = "The Email should only have lower case letters";
     e.preventDefault();
   }
 });
