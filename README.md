@@ -137,11 +137,11 @@ You can deploy this project using:
 - Twitter: [@twitterhandle](https://twitter.com/mwovi_peter)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/peter-mwovi-57141a179/)
 
-👤 **Juan Carlos Muñoz**
+👤 **Bruno Kambere**
 
-- GitHub: [@githubhandle](https://github.com/jcmunav63)
-- Twitter: [@twitterhandle](https://twitter.com/jcmunav63)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juan-carlos-mu%C3%B1oz-navarrete-5a15b6276/)
+- GitHub: [@githubhandle](https://github.com/kambereBr)
+- Twitter: [@twitterhandle](https://twitter.com/kambereBr)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bruno-kambere-399447138/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
