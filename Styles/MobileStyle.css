@@ -332,7 +332,7 @@ textarea {
 
 .product-details {
   color: var(--text-content-color);
-  font-size: 12px;
+  font-size: 16px;
   margin: 8px 0;
 }
 
@@ -346,6 +346,11 @@ textarea {
   border: 1px solid var(--blue-text);
   border-radius: 8px;
   color: var(--blue-text);
+  text-align: center;
+}
+
+.btn3 button{
+  padding-left: 15%;
 }
 
 .button-project:hover,

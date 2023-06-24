@@ -192,6 +192,8 @@ function showPopupWindow(data) {
   // When the user clicks on <span> (x), close the modal
   span.onclick = function () {
     modal.style.display = 'none';
+    document.body.style.overflowY = 'scroll';
+
   };
 }
 
@@ -233,6 +235,8 @@ function buildProjectCard(data) {
     buttonSeeProject.innerHTML = 'See project';
     buttonSeeProject.addEventListener('click', () => {
       showPopupWindow(cardData);
+      document.body.style.overflowY = 'hidden';
+
     });
     nav.appendChild(buttonSeeProject);
     work1b.appendChild(nav);
