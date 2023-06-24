@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('MobileStyle.css');
+@import url('DesktopStyle.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fbf8f8;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/header-shapes\ mobile.svg");
+  background-size: 100%;
+  padding: 24px;
+  background-repeat: no-repeat;
+}
+
+li {
+  list-style: none;
+}
+
+ul > li {
+  list-style: none;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+h1 > a {
+  text-decoration: none;
+  color: var(--blue);
+}
