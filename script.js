@@ -17,14 +17,13 @@ btn.onclick = function () {
     title.style.textShadow = '#172b4d 0 0 0';
     text.style.textShadow = '#344563 0 0 0';
     logo.style.textShadow = '#6070ff 0 0 0';
-
   } else {
     targetDiv.style.display = 'inline';
     document.body.style.overflowY = 'hidden';
     btn.style.display = 'none';
     title.style.color = 'transparent';
     title.style.textShadow = '#172b4d 0 0 10px';
-    text.style.color = 'transparent'; 
+    text.style.color = 'transparent';
     text.style.textShadow = '#344563 0 0 10px';
     logo.style.color = 'transparent';
     logo.style.textShadow = '#6070ff 0 0 10px';
@@ -50,14 +49,11 @@ cancel.onclick = function () {
 };
 
 about.onclick = function () {
-    title.style.textShadow = '#172b4d 0 0 0';
-    text.style.textShadow = '#344563 0 0 0';
-    logo.style.textShadow = '#6070ff 0 0 0';
-    btn.style.display = 'inline';
-}
-
-
-
+  title.style.textShadow = '#172b4d 0 0 0';
+  text.style.textShadow = '#344563 0 0 0';
+  logo.style.textShadow = '#6070ff 0 0 0';
+  btn.style.display = 'inline';
+};
 
 for (let i = 0; i < linkMenu.length; i += 1) {
   linkMenu[i].addEventListener('click', () => {
