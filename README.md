@@ -76,7 +76,7 @@ In order to run this project you need:
 
 ```sh
  npm install
- ```
+```
 
 ### Setup
 
@@ -96,7 +96,6 @@ Install this project with:
   npm install
 ```
 
-
 ### Usage
 
 To run the project, execute the following command:
@@ -106,16 +105,15 @@ To run the project, execute the following command:
     npm start (it will run the server on your machine)
 ```
 
-### Run 
+### Run
 
 I have added linters to ensure proper practice in the project.
 
-To run the linter tests on ``` index.html ```,  run the following command:
+To run the linter tests on `index.html`, run the following command:
 
 ```sh
     npx hint .
 ```
-
 
 ### Deployment
 
@@ -137,11 +135,17 @@ You can deploy this project using:
 - Twitter: [@twitterhandle](https://twitter.com/mwovi_peter)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/peter-mwovi-57141a179/)
 
-👤 **Juan Carlos Muñoz**
+👤 **Arslan Majeed**
 
-- GitHub: [@githubhandle](https://github.com/jcmunav63)
-- Twitter: [@twitterhandle](https://twitter.com/jcmunav63)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juan-carlos-mu%C3%B1oz-navarrete-5a15b6276/)
+- GitHub: [@githubhandle](https://github.com/arslan49sp)
+- Twitter: [@twitterhandle](https://twitter.com/arslan49sp)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/arslan49sp)
+
+👤 **Bruno KAmbere**
+
+- GitHub: [@githubhandle](https://github.com/kambereBr)
+- Twitter: [@twitterhandle](https://twitter.com/kambereBr)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bruno-kambere-399447138/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,7 +189,6 @@ I would like to thank Microverse for providing me with the necessary tools to wo
 
 ## ❓ FAQ <a name="faq"></a>
 
-
 - **What is Linters?**
 
   - Linters is a tool to analyse Source code so as to flag errors.
@@ -201,6 +204,5 @@ I would like to thank Microverse for providing me with the necessary tools to wo
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
