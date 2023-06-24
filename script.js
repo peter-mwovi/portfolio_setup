@@ -6,8 +6,6 @@ const title = document.querySelector('.title');
 const text = document.querySelector('.paragraph1');
 const logo = document.querySelector('.logo');
 const about = document.getElementById('cross2');
-const main = document.getElementById('main-section');
-const contact = document.getElementById('contact');
 
 btn.onclick = function () {
   if (targetDiv.style.display !== 'none') {
