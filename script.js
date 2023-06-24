@@ -51,8 +51,8 @@ const projectSectionData = [
       'assets/images/Counter.svg',
       '2015',
     ],
-    liveVersionLink: 'https://kamberebr.github.io/Portfolio/',
-    sourceLink: 'https://github.com/kambereBr/Portfolio.git',
+    liveVersionLink: 'https://peter-mwovi.github.io/portfolio_setup/',
+    sourceLink: 'https://github.com/peter-mwovi/portfolio_setup',
   },
   {
     name: 'Multi-Post Stories',
@@ -67,8 +67,8 @@ const projectSectionData = [
       'assets/images/Counter.svg',
       '2015',
     ],
-    liveVersionLink: 'https://kamberebr.github.io/Portfolio/',
-    sourceLink: 'https://github.com/kambereBr/Portfolio.git',
+    liveVersionLink: 'https://peter-mwovi.github.io/portfolio_setup/',
+    sourceLink: 'https://github.com/peter-mwovi/portfolio_setup',
   },
   {
     name: 'Facebook 360',
@@ -83,8 +83,8 @@ const projectSectionData = [
       'assets/images/Counter.svg',
       '2015',
     ],
-    liveVersionLink: 'https://kamberebr.github.io/Portfolio/',
-    sourceLink: 'https://github.com/kambereBr/Portfolio.git',
+    liveVersionLink: 'https://peter-mwovi.github.io/portfolio_setup/',
+    sourceLink: 'https://github.com/peter-mwovi/portfolio_setup',
   },
   {
     name: 'Uber navigation',
@@ -99,8 +99,8 @@ const projectSectionData = [
       'assets/images/Counter.svg',
       '2018',
     ],
-    liveVersionLink: 'https://kamberebr.github.io/Portfolio/',
-    sourceLink: 'https://github.com/kambereBr/Portfolio.git',
+    liveVersionLink: 'https://peter-mwovi.github.io/portfolio_setup/',
+    sourceLink: 'https://github.com/peter-mwovi/portfolio_setup',
   },
 ];
 
@@ -183,10 +183,10 @@ function showPopupWindow(data) {
 
   // redirect either to github source or to live demo
   liveLinkBtn.addEventListener('click', () => {
-    redirectToLink('https://kamberebr.github.io/Portfolio/');
+    redirectToLink('https://peter-mwovi.github.io/portfolio_setup/');
   });
   githubLinkBtn.addEventListener('click', () => {
-    redirectToLink('https://github.com/kambereBr/Portfolio.git');
+    redirectToLink('https://github.com/peter-mwovi/portfolio_setup');
   });
 
   // When the user clicks on <span> (x), close the modal
