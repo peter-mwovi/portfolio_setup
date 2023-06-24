@@ -168,7 +168,7 @@
 
   .web-nav ul li {
     list-style: none;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     opacity: 1;
   }
 
@@ -620,13 +620,13 @@
   .web-nav img {
     margin-left: 85%;
     margin-top: 10%;
+    width: 18px ;
+    height: 18px ;
   }
 
   .web-nav ul {
     display: flex;
     flex-direction: column;
-    margin-top: 106px;
-    margin-left: 28px;
   }
 
   .web-nav ul li a {
